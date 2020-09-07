@@ -148,16 +148,16 @@
 
 # Write a Python program to iterate over an enum class and display individual member and their value.
 
-from enum import Enum
-class Country(Enum):
-    Afghanistan = 93
-    Albania = 355
-    Algeria = 213
-    Andorra = 376
-    Angola = 244
-    Antarctica = 672
-for data in Country:
-    print('{:15} = {}'.format(data.name, data.value))
+# from enum import Enum
+# class Country(Enum):
+#     Afghanistan = 93
+#     Albania = 355
+#     Algeria = 213
+#     Andorra = 376
+#     Angola = 244
+#     Antarctica = 672
+# for data in Country:
+#     print('{:15} = {}'.format(data.name, data.value))
 
 # Output:
 # Afghanistan     = 93
@@ -166,3 +166,21 @@ for data in Country:
 # Andorra         = 376
 # Angola          = 244
 # Antarctica      = 672
+
+###########################################################################################
+
+# Print even numbers in a list
+
+# list1 = [10, 21, 4, 45, 66, 93]
+
+# iterate through each number on the list
+# for num in list1:
+    # Set the condition so that any number that is divisible by 2, let the application print   that data as a string type
+
+    # if num %2 == 0:
+    #     print(num, end = " ")
+    
+    # Sample Output
+    # 10, 4, 66 
+
+###########################################################################################
