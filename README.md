@@ -1,3 +1,3 @@
 # .py__pet_projects
 
-A repository that contains .py applications to practice python concepts
+This repository contains .py applications used to enhance learning on technical python concepts
